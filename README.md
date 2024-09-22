@@ -4,6 +4,7 @@ Neste projeto eu desenvolvi um script python para coletar dados de uma planilha 
 **Tecnologias e ferramentas: python, postgresql, pandas, jupyter notebook**
 
 # Instruções para rodar o projeto:
+-  Criar uma virtualenv;
 -  pip install -r requirements.txt;
 -  Adicionar na pasta principal um arquivo .env para inserir os dados do banco dedados;
 -  python main.py: comando para rodar o script;
