@@ -4,7 +4,7 @@ import pandas as pd
 from db import conn, insert_values, select_values
 
 def tratar_isento(isento, status): 
-    if status=="Ativo" or isento=="Sim":
+    if isento=="Sim":
         return True
     
     return False 
@@ -199,3 +199,4 @@ sql = """INSERT INTO tbl_cliente_contratos(cliente_id,plano_id,dia_vencimento,is
 
 insert_values(sql,cliente_contrato_tratados, context="cliente_contratos")
 
+conn.close()
