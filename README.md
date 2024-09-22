@@ -9,7 +9,6 @@ Neste projeto eu desenvolvi um script python para coletar dados de uma planilha 
 -  python main.py: comando para rodar o script;
 
 # Variáveis do arquivo .env:
-**O nome das variáveis precisam ser iguais para o código identificar corretamente**
 DB_PASSWORD="insira a senha"
 DB_PORT="insira a porta"
 DB_HOST="localhost"
