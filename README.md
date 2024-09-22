@@ -10,8 +10,8 @@ Neste projeto eu desenvolvi um script python para coletar dados de uma planilha 
 -  python main.py: comando para rodar o script;
 
 # Variáveis do arquivo .env:
-DB_PASSWORD="insira a senha"
-DB_PORT="insira a porta"
-DB_HOST="localhost"
-DB_USERNAME="insira o usuário"
-DB_NAME="insira o nome do banco de dados"
+- DB_PASSWORD="insira a senha"
+- DB_PORT="insira a porta"
+- DB_HOST="localhost"
+- DB_USERNAME="insira o usuário"
+- DB_NAME="insira o nome do banco de dados"
